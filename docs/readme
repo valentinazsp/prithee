@@ -1,0 +1,35 @@
+9/11/26
+Valentina Sanchez-Patout
+
+To run this program, start the Main class.
+
+This program prints out the sonnet and stops at a random word,
+printing a series of underscores instead, and not printing the
+rest of the sonnet. The program prompts the user for the
+next word. Once the user responds, the program indicates correct
+or error, and restart the sonnet, stopping at a different word.
+The program continues this prompting until the user gets three words
+correct or three words incorrect.
+
+Sonnet class
+- has the sonnet split into an array of words
+- has a boolean array to track which words already got used
+- renderUpTo(index) -> print everything up to that word, then underscores, then stop
+
+Game class
+- track correct = 0, incorrect = 0
+- loop while correct < 3 and incorrect < 3:
+    - pick a random index that hasn't been used yet
+    - mark it used
+    - print the sonnet up to that word (with blanks)
+    - ask "what's next?"
+    - get answer
+    - if it matches the real word (ignore case/punctuation) -> correct++, say "correct!"
+    - else -> incorrect++, say "nope, it was ___"
+    - print score so far
+- when loop ends, say if they won or lost
+
+Main
+- make the sonnet
+- make the game
+- start it
