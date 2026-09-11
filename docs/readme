@@ -24,7 +24,7 @@ org.example.Game class
     - print the sonnet up to that word (with blanks)
     - ask "what's next?"
     - get answer
-    - if it matches the real word (ignore case/punctuation) -> correct++, say "correct!"
+    - if it matches the real word -> correct++, say "correct!"
     - else -> incorrect++, say "nope, it was ___"
     - print score so far
 - when loop ends, say if they won or lost
