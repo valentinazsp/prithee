@@ -1,0 +1,12 @@
+-----------------------------------
+               Game
+-----------------------------------
+- sonnet: Sonnet
+- scanner: Scanner
+- correctCount: int
+- incorrectCount: int
+-----------------------------------
++ play(): void
+- playRound(): void
+- announceResult(): void
+-----------------------------------

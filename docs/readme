@@ -11,12 +11,12 @@ or error, and restart the sonnet, stopping at a different word.
 The program continues this prompting until the user gets three words
 correct or three words incorrect.
 
-Sonnet class
+org.example.Sonnet class
 - has the sonnet split into an array of words
 - has a boolean array to track which words already got used
 - renderUpTo(index) -> print everything up to that word, then underscores, then stop
 
-Game class
+org.example.Game class
 - track correct = 0, incorrect = 0
 - loop while correct < 3 and incorrect < 3:
     - pick a random index that hasn't been used yet

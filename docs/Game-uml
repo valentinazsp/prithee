@@ -1,0 +1,12 @@
+-----------------------------------
+              Sonnet
+-----------------------------------
+- words: String[]
+- used: boolean[]
+- random: Random
+-----------------------------------
++ wordCount(): int
++ wordAt(index): String
++ pickUnusedIndex(): int
++ renderUpTo(index): String
+-----------------------------------
